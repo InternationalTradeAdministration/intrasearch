@@ -1,0 +1,24 @@
+language: ruby
+rvm:
+- 2.4.5
+bundler_args: "--without production"
+env:
+  global:
+  - ES_VERSION=2.4.6
+  - secure: aiXgH5Hu2dvog0Q08gY9G0MHzfjWarOgajiLErQTGHTwlYm75IDiHWpFQD1LNTQfOquf/gskFgrO9/vBvZLiZoq2Rbm4PQiFghuhsbBcRu7KlLtYerfo6AIyWvnOPAQRaoA4CinGyPSB7O6eYpA2Q+XMDZGNcWzOlbL2NW24U8Vq9kajVHpjsdNt+PSr+nY6bIqV1ocKd6KJUPiSkrLKBO3p6f7wnTMphOLJF+Pcwu5oEzk/r+i3krc27p0w1VEdsWJfogm266MJDIlZx2vBSwBccqZZ1kNAezkF+M/CWSeu9geLQAKA+A+4Ok1qC4L6jSwftRu22Ao7wwepU+Rd5qVeOMO6JcIVaT3nD5TKPL745gv7fiPlnbYTP8AXV3YCLRNgspRpgeMbEhBx+fC+9eB7IWM46tP7GYtsfd3Jzw/52cGQBr8RcfLIH4cKyAorIYVJ1z8zmAnqs1sDG9ubJ6WDTiaiikITpu00rOVcyHe4rW7pBRJvIGbAh/Rbn/M7XM1DzFdCYZdbkbV6URBK/PA4yhnh/sqXTABNeHIEQCV6DhbPnpqzDRH2RwCHIqck3qrQQigA40wxPc/6Iupo9dpxVrcaQxocPR5m2OWwErV57ZwKfYgqWvXhrKO04a7EpVyvIZIpIrkzEl+9jvXqdhOZKZVjacQ/Iq+VZyAQtp0=
+  - secure: Co6RQjF9OUaYW8tX4RgLyXAX07tt2egtuWqqwIxMi6Ga/G+e0AlYVwwxQtZEJ4rWkL23DuADVZ9A3Y7CQtxeLSy0VzZ95IO08n2vpsrkzyK4O1Jx+VMN4on228tmW0CEDUmDFQrxoT8O2B6OKMw1fahorcIvzRjWC7+l2LSr8HDvSHExo1IblIufot1UwC2Pe7DfkXv4HY9U1hjqbjAfXXje26VVYRt9+rbRw6SmJ+3jBTtQD596I0OAjPRYxoI6tte4I4T4HJiGGKZuQc9mr/ZR17pHBqHVoC/W08kjPrFahEpldA1l9adBYFhSQlRLwGjhumI3wNZ33toBESE2KbBZueHK+FpBOSeXt6eXPqqQ6C//h1F+U1+m6iLQnEphMdft9xRsL52JbTyz3k2i9peh4hH0IW9+cyPEtGl0C4S6BpBmBH2TwaaVFTghTGgndAS7e0z9bK+uA+D8vPm8lue4qcmG7JhSAWfdvK2p9UYPpM8qik8tJ9TR4GHLadMht8GB0ZHCySAvc4wwlPaJy3G9u0S3RQGQ1UxNjRuPkgvcupRNhIHbOhUj5cL/o8l49zgVZ8hZfCe0CWNBhIiOZb/o//v2H6WO5m99vVbw2S0x5kgH4HU4geLz3Y9NJfdzgN72lKbCsWDwTd9ClKB29bLbFDYvPBtk3BD0sHlCV6o=
+before_install:
+- curl -s https://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/${ES_VERSION}/elasticsearch-${ES_VERSION}.tar.gz
+  | tar xz -C /tmp || true
+- "/tmp/elasticsearch-${ES_VERSION}/bin/elasticsearch -d"
+- gem install bundler -v 1.17.3
+before_script:
+- curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64
+  > ./cc-test-reporter
+- chmod +x ./cc-test-reporter
+- "./cc-test-reporter before-build"
+- cp config/intrasearch.yml.example config/intrasearch.yml
+- cp config/restforce.yml.example config/restforce.yml
+- cp config/webservices.yml.example config/webservices.yml
+after_script:
+- "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
