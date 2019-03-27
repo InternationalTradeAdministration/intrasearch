@@ -1,0 +1,25 @@
+---
+- :id: http://webprotege.stanford.edu/RB53lPnm186ivFLEXmbWylT
+  :countries:
+  - Bolivia
+  - Colombia
+  :label: Andean Community
+
+- :id: http://webprotege.stanford.edu/RColoqFfo8G4Klm60b7QkwU
+  :countries:
+  - Algeria
+  - Angola
+  :label: Organization of the Petroleum Exporting Countries
+
+- :id: http://webprotege.stanford.edu/R7YQAlNP4iXuBJLBhgPAcIO
+  :countries:
+  - China
+  - Japan
+  :label: Asia Pacific Economic Cooperation
+
+- :id: http://webprotege.stanford.edu/RIJ9QDqLBnZb8kAiGKqIyz
+  :countries:
+  - Canada
+  - Mexico
+  - United States
+  :label: NAFTA

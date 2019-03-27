@@ -1,0 +1,47 @@
+- label: Business Management
+  path: "/Business Management"
+
+- label: Advertising
+  path: "/Business Management/Advertising"
+
+- label: Costing and Pricing
+  path: "/Business Management/Costing and Pricing"
+
+- label: Prices
+  path: "/Business Management/Costing and Pricing/Prices"
+
+- label: eCommerce
+  path: "/Business Management/eCommerce"
+
+- label: Economic Development and Investment
+  path: "/Economic Development and Investment"
+
+- label: Capital
+  path: "/Economic Development and Investment/Capital"
+
+- label: Environment
+  path: "/Environment"
+
+- label: Climate
+  path: "/Environment/Climate"
+
+- label: Market Access
+  path: "/Market Access"
+
+- label: Export Licenses
+  path: "/Market Access/Export Licenses"
+
+- label: Trade Barriers
+  path: "/Market Access/Trade Barriers"
+
+- label: Anti-Dumping
+  path: "/Market Access/Trade Barriers/Anti-Dumping"
+
+- label: Trade Promotion
+  path: "/Trade Development and Promotion/Trade Promotion"
+
+- label: Transport and Logistics
+  path: "/Transport and Logistics/Trade Documents"
+
+- label: Export Licenses
+  path: "/Transport and Logistics/Trade Documents/Export Licenses"

@@ -1,0 +1,66 @@
+{
+  "total": 1,
+  "offset": 0,
+  "sources_used": [
+    {
+      "source": "USTDA",
+      "source_last_updated": "2016-05-15T17:08:15+00:00",
+      "last_imported": "2016-05-15T17:08:15+00:00"
+    }
+  ],
+  "search_performed_at": "2016-05-15T17:10:42+00:00",
+  "aggregations": {
+    "sources": [
+      {
+        "key": "USTDA",
+        "doc_count": 1
+      }
+    ],
+    "countries": [
+      {
+        "key": "US",
+        "doc_count": 1
+      }
+    ]
+  },
+  "results": [
+    {
+      "id": "f0e2598dbc76ce55cd0a557746375bd911808bac",
+      "title": "USTDA Trade Event Summit f0e259",
+      "start_date": "2016-05-17T00:00:00+00:00",
+      "end_date": "2016-05-24T00:00:00+00:00",
+      "start_time": "15:46",
+      "end_time": "17:46",
+      "cost": "25.00",
+      "cost_currency": "USD",
+      "registration_link": "http://ustda.trade.events.example.org/registration/f0e259",
+      "registration_title": "USTDA Awesome Trade Event Summit",
+      "description": "USTDA Trade Event f0e259 description",
+      "industries": [
+        "eCommerce",
+        "Retail"
+      ],
+      "industry": [
+        "Franchising",
+        "eCommerce Industry"
+      ],
+      "url": "http://ustda.trade.events.example.org/event/f0e259",
+      "click_url": "https://goo.gl/ustda1",
+      "venues": [
+        {
+          "venue": "Washington, D.C.",
+          "city": "Washington",
+          "country": "US",
+          "country_name": "United States"
+        }
+      ],
+      "first_name": "John",
+      "last_name": "Doe",
+      "post": "$post",
+      "person_title": "$person_title",
+      "phone": "111-222-3333",
+      "email": "john.doe@example.org",
+      "source": "USTDA"
+    }
+  ]
+}

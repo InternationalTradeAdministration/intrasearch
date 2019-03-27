@@ -1,0 +1,133 @@
+- :id: http://webprotege.stanford.edu/RDmEnPaeDKHRTMgjbarbJVz
+  :label: Australia
+  :trade_regions:
+  - Asia Pacific Economic Cooperation
+  - Trans Pacific Partnership
+  :world_region_paths:
+  - "/Asia Pacific"
+  - "/Oceania"
+  - "/Pacific Rim"
+  :world_regions:
+  - Asia Pacific
+  - Oceania
+  - Pacific Rim
+
+- :id: http://webprotege.stanford.edu/RBTBNP5i0kFGFdhQ82AFali
+  :label: Canada
+  :trade_regions:
+  - Asia Pacific Economic Cooperation
+  - NAFTA
+  - Trans Pacific Partnership
+  :world_region_paths:
+  - "/North America"
+  - "/Pacific Rim"
+  - "/Western Hemisphere"
+  :world_regions:
+  - North America
+  - Pacific Rim
+  - Western Hemisphere
+
+- id: http://webprotege.stanford.edu/RC4HD9CwKjvgX8dSybAp3Sk
+  label: United States
+  trade_regions:
+  - Asia Pacific Economic Cooperation
+  world_region_paths:
+  - "/North America"
+  - "/Pacific Rim"
+  - "/Western Hemisphere"
+  world_regions:
+  - North America
+  - Pacific Rim
+  - Western Hemisphere
+
+- id: http://webprotege.stanford.edu/RBPxtBToM2v2kOpsL8Gaifx
+  label: Cayman Islands
+  trade_regions: []
+  world_region_paths:
+  - "/Caribbean"
+  - "/Western Hemisphere"
+  world_regions:
+  - Caribbean
+  - Western Hemisphere
+
+- id: http://webprotege.stanford.edu/RGaokBKPwCXFwDq7NAVt5e
+  label: Bosnia and Herzegovina
+  trade_regions: []
+  world_region_paths: []
+  world_regions: []
+
+- id: http://webprotege.stanford.edu/RDFP2YrvV7b1gJy0iw9zRK8
+  label: Congo-Brazzaville
+  trade_regions: []
+  world_region_paths: []
+  world_regions: []
+
+- :id: http://webprotege.stanford.edu/RL7MjTu8xoASOkoXft8G2E
+  :label: France
+  :trade_regions:
+  - European Union - 28
+  :world_region_paths:
+  - "/Europe"
+  :world_regions:
+  - Europe
+
+- :id: http://webprotege.stanford.edu/R8CwJ8K2v1OQmxDmOcHfgSj
+  :label: Mexico
+  :trade_regions:
+  - Asia Pacific Economic Cooperation
+  - Global System of Trade Preferences among Developing Countries
+  - NAFTA
+  - Trans Pacific Partnership
+  :world_region_paths:
+  - "/Latin America"
+  - "/North America"
+  - "/Pacific Rim"
+  - "/Western Hemisphere"
+  :world_regions:
+  - Latin America
+  - North America
+  - Pacific Rim
+  - Western Hemisphere
+
+- id: http://webprotege.stanford.edu/R7ZPpf5xWtCQtss1SpwR9P
+  label: Palestine, State of
+  trade_regions: []
+  world_region_paths: []
+  world_regions: []
+
+- :id: http://webprotege.stanford.edu/RDFbgSy3LZrH6PRhU3Ah9FK
+  :label: South Africa
+  :trade_regions:
+  - African Growth and Opportunity Act
+  - South African Customs Union
+  - South African Development Community
+  :world_region_paths:
+  - "/Africa"
+  - "/Africa/Sub-Saharan Africa"
+  :world_regions:
+  - Africa
+  - Sub-Saharan Africa
+
+- :id: http://webprotege.stanford.edu/R8UBTJoenDbXjYBjcyr1LXc
+  :label: Taiwan
+  :trade_regions:
+  - Asia Pacific Economic Cooperation
+  :world_region_paths:
+  - "/Asia"
+  - "/Asia Pacific"
+  - "/Asia/East Asia"
+  - "/Pacific Rim"
+  :world_regions:
+  - Asia
+  - Asia Pacific
+  - East Asia
+  - Pacific Rim
+
+- :id: http://webprotege.stanford.edu/RCs75GXTuLFQAa5lGsmBtpi
+  :label: United Kingdom
+  :trade_regions:
+  - European Union - 28
+  :world_region_paths:
+  - "/Europe"
+  :world_regions:
+  - Europe

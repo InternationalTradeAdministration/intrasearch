@@ -1,0 +1,30 @@
+- id: ka0t0000000PCy6AAG
+  atom: In 2014, more than two-thirds of Czech households had computers. Over 78 percent
+    of the population had access to the Internet and 76 percent of households had broadband
+    internet connections (according to Eurostat). The number of Czech consumers shopping
+    online reached almost six million, which is over 50 percent of the country’s population.
+    Only two percent of individuals use the internet to buy or order online content.
+  countries:
+  - Czech Republic
+  industry_paths:
+  - "/Aerospace and Defense"
+  - "/Information and Communication Technology/eCommerce Industry"
+  - "/Retail Trade/eCommerce Industry"
+  industries:
+  - Aerospace and Defense
+  - eCommerce Industry
+  summary: Describes how widely e-Commerce is used, the primary sectors that sell through
+    e-commerce, and how much product/service in each sector is sold through e-commerce
+    versus brick-and-mortar retail.
+  title: Czech Republic - E-Commerce
+  topic_paths:
+  - "/Business Management/Costing and Pricing/Prices"
+  topics:
+  - Prices
+  trade_regions:
+  - European Union - 28
+  url: https://example.org/article2?id=Czech-Republic-ECommerce
+  world_region_paths:
+  - "/Europe"
+  world_regions:
+  - Europe

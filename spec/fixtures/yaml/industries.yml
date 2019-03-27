@@ -1,0 +1,38 @@
+- label: Aerospace and Defense
+  path: "/Aerospace and Defense"
+
+- label: Space
+  path: "/Aerospace and Defense/Space"
+
+- label: Satellites
+  path: "/Aerospace and Defense/Space/Satellites"
+
+- label: Space Launch Equipment
+  path: "/Aerospace and Defense/Space/Space Launch Equipment"
+
+- label: Business and Professional Services/
+  path: "/Business and Professional Services"
+
+- label: Scientific and Technical Services
+  path: "/Business and Professional Services/Scientific and Technical Services"
+
+- label: Distribution and Logistics
+  path: "/Distribution and Logistics"
+
+- label: Air Transportation
+  path: "/Distribution and Logistics/Air Transportation"
+
+- label: Franchising
+  path: "/Franchising"
+
+- label: Information and Communication Technology
+  path: "/Information and Communication Technology"
+
+- label: eCommerce Industry
+  path: "/Information and Communication Technology/eCommerce Industry"
+
+- label: Retail Trade
+  path: "/Retail Trade"
+
+- label: eCommerce Industry
+  path: "/Retail Trade/eCommerce Industry"

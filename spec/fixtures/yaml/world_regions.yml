@@ -1,0 +1,52 @@
+---
+- id: http://webprotege.stanford.edu/R91fGuW6GPOnb7XSylIPwR5
+  label: Asia
+  countries: []
+  path: /Asia
+
+- :id: http://webprotege.stanford.edu/RDAklO0LFVtjIoIUYj4Dg4M
+  :countries:
+   - China
+   - Hong Kong
+   - Japan
+   - Macau
+   - Mongolia
+   - North Korea
+   - South Korea
+   - Taiwan
+  :label: East Asia
+  :path: /Asia/East Asia
+
+- :id: http://webprotege.stanford.edu/RSdD0vStFEjovpmpaEuydN
+  :countries:
+   - Belize
+   - Costa Rica
+   - El Salvador
+   - Guatemala
+   - Honduras
+   - Nicaragua
+   - Panama
+  :label: Central America
+  :path: /Central America
+
+- :id: http://webprotege.stanford.edu/RCdAtPyF8RRyB9AuFgtFJo
+  :label: Europe
+  :countries:
+  - Czech Republic
+  - France
+  - Sweden
+
+- :id: http://webprotege.stanford.edu/RKn0x8BGb8udkb77NaE1ch
+  :label: North America
+  :countries:
+  - Canada
+  - Mexico
+  - U.S. Virgin Islands
+  - United States
+  :path: "/North America"
+
+- :id: http://webprotege.stanford.edu/R9jQGVCde409dLI33OeiaA2
+  :label: Oceania
+  :countries:
+  - Australia
+  :path: "/Oceania"
