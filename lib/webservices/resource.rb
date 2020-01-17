@@ -31,13 +31,13 @@ module Webservices
       end
 
       def get_body(connection, next_offset, extra_params)
-        connection.get("/#{version}/#{resource_name}/search",
-                       params(next_offset, extra_params)).body
+        connection.get("/gateway/#{version}/#{resource_name}/search",
+                      headers: { 'Authorization' => "Bearer #{Webservices.configuration.access_token}" },
+                      params(next_offset, extra_params)).body
       end
 
       def params(offset, extra_params)
         {
-          api_key: Webservices.configuration.api_key,
           offset: offset,
           size: 100
         }.merge(extra_params)

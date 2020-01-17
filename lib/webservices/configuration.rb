@@ -1,5 +1,5 @@
 module Webservices
   class Configuration
-    attr_accessor :api_key, :host_url
+    attr_accessor :access_token, :host_url
   end
 end
