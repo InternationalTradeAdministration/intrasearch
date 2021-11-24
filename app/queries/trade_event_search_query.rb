@@ -13,8 +13,9 @@ class TradeEventSearchQuery
     title_field: :name
   }
 
-  def initialize(countries: [], event_types: [], industries: [], limit:, offset:, q: nil, start_date_range: {}, states: [])
+  def initialize(countries: [], event_types: [], industries: [], limit:, offset:, q: nil, sources: [], start_date_range: {}, states: [])
     @event_types = event_types.map(&:squish)
+    @sources = sources.map(&:squish)
     @start_date_range = start_date_range
     @states = states.map(&:squish)
 
@@ -52,6 +53,7 @@ class TradeEventSearchQuery
       countries: @countries,
       event_type: @event_types,
       expanded_industries: @industries,
+      source: @sources,
       'venues.state': @states
     }
   end

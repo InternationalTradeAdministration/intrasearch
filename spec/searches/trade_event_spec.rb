@@ -15,6 +15,7 @@ RSpec.describe TradeEvent do
     it 'returns ids from all TradeEvent models' do
       expected_ids = %w(
         ITA-36282
+        ITA-36288
         SBA-730226ea901d6c4bf7e4e4f5ef12ebec8c482a2b
         DL-94c68284a1b7698becdcdaa69dda29bb2d76051c
         USTDA-f0e2598dbc76ce55cd0a557746375bd911808bac

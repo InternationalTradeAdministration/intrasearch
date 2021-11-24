@@ -21,7 +21,7 @@ RSpec.describe Admin::TradeEventListAPI, endpoint: '/admin/trade_events' do
     it_behaves_like 'a successful API response'
 
     it 'returns metadata' do
-      expect(parsed_body[:metadata]).to eq(total: 4,
+      expect(parsed_body[:metadata]).to eq(total: 5,
                                            count: 1,
                                            offset: 2,
                                            next_offset: 3)
